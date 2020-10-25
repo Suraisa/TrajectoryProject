@@ -1,4 +1,3 @@
-import fiona
 from matplotlib import pyplot as plt
 import numpy as np
 from cartopy.io.shapereader import Reader
