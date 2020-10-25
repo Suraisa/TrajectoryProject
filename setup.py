@@ -11,10 +11,16 @@ setup(
     install_requires=[
         'pathlib',
         'pandas',
-	'numpy',
-	'matplotlib',
-	'cartopy',
-	'pyproj'
+	    'numpy',
+	    'matplotlib',
+        'libproj-dev',
+        'proj-data',
+        'proj-bin',
+        'libgeos-dev',
+        'cython'  
+	    'cartopy',
+	    'pyproj',
+
     ],
     packages=["Trajectory_Gomes_Yune"],  
     python_requires='>=3.8',
