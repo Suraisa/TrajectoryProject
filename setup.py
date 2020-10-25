@@ -17,10 +17,9 @@ setup(
         'proj-data',
         'proj-bin',
         'libgeos-dev',
-        'cython'  
-	    'cartopy',
+        'cython',
 	    'pyproj',
-
+	    'cartopy'
     ],
     packages=["Trajectory_Gomes_Yune"],  
     python_requires='>=3.8',
